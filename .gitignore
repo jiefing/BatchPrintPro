@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dll
+*.exe
+*.exe~
+*.dll~
+*.log
+*.pot
+*.pyc
+*.pyd
+*.pytest_cache/
+venv/
+env/
+ENV/
+.venv
+.env
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Qt
+*.ui~
+*.qm~
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.py
+*.qmlc
+*.jsc
+
+# Project specific
+debug_*.log
+error.log
+FIX_REPORT.md
+gen_icon.py
+runtime_test.py
+simple_test.py
+step_by_step_test.py
+test_startup.py
+*.bat
+
+# Documentation (keep architecture docs)
+# ARCHITECTURE.md is included
+
+# Testing
+tests/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Translations
+*.ts
+*.qm
+
+# Installer
+_inno_setup/
+_nsis/
+
+# Custom
+resources/__init__.py
+!.gitkeep

@@ -1,0 +1,58 @@
+# Auto-detect text files and ensure LF line endings on checkout
+# and CRLF on commit for Windows-specific files
+
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force batch scripts to use CRLF line endings on checkout
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Force PowerShell scripts to use CRLF line endings on checkout
+*.ps1 text eol=crlf
+
+# Force Python files to use LF line endings on checkout (cross-platform)
+*.py text eol=lf
+
+# Force Markdown files to use LF line endings on checkout
+*.md text eol=lf
+
+# Force text files to use LF line endings on checkout
+*.txt text eol=lf
+
+# Force JSON files to use LF line endings on checkout
+*.json text eol=lf
+
+# Force YAML files to use LF line endings on checkout
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Force XML files to use LF line endings on checkout
+*.xml text eol=lf
+
+# Force HTML files to use LF line endings on checkout
+*.html text eol=lf
+*.htm text eol=lf
+
+# Force CSS files to use LF line endings on checkout
+*.css text eol=lf
+
+# Force JavaScript files to use LF line endings on checkout
+*.js text eol=lf
+
+# Force TypeScript files to use LF line endings on checkout
+*.ts text eol=lf
+
+# Binary files - do not normalize
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tiff binary
+*.pdf binary
+*.docx binary
+*.exe binary
+*.dll binary
+*.so binary
